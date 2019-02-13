@@ -1,0 +1,47 @@
+.button {
+    margin-top: 100px;
+    text-align: center;
+    padding: 3% 6%;
+    font-family: Arial;
+    font-size: 30px;
+    border-radius: 18px;
+    font-weight: bold;
+    color: #93ed65;
+    transition-duration: 0.4s;
+    background-color: white;
+    box-shadow: 0px 6px #999;
+}
+  
+.button:hover {
+    transition-duration: 0.02s;
+    color: #77ce4b;
+    background-color: rgb(226, 226, 226);
+}
+  
+.button:active {
+    background-color: white;
+    transform: translateY(6px);
+    box-shadow: 0px 0px #999;
+    color: #93ed65;
+}
+
+.banner-left{
+    position: fixed;
+    left: 0px;
+    bottom:0px;
+    width: 22%;
+    height: 100%;
+    box-shadow: inset 15px 0 15px;
+}
+
+.banner-right{
+    position: fixed; 
+    right: 0px;
+    bottom:0px;
+    width: 22%;
+    height: 100%;
+}
+
+body {
+    background-color: #93ed65;
+  }
